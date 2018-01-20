@@ -1,0 +1,12 @@
+#define IDD_MAINDIALOG  100
+#define IDC_MOJNICK 102
+#define IDC_WIADOMOSCI  104
+#define IDC_WYCZYSC 105
+#define IDC_PRZYJACIELE 107
+#define IDC_NICKP   109
+#define IDC_HOSTP   111
+#define IDC_PORTP   113
+#define IDC_DODAJP  114
+#define IDC_USUNP   115
+#define IDC_WIADOMOSC   116
+#define IDC_WYSLIJ  117

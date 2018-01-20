@@ -1,0 +1,101 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+#include "c4z2res.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Polish resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_PLK)
+#ifdef _WIN32
+LANGUAGE LANG_POLISH, SUBLANG_DEFAULT
+#pragma code_page(1250)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAINDIALOG DIALOGEX 84, 20, 389, 232
+STYLE DS_SETFONT | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "MINIGADU"
+FONT 10, "Helv", 0, 0, 0x0
+BEGIN
+    LTEXT           "Mój nick:",101,8,8,32,12
+    EDITTEXT        IDC_MOJNICK,40,6,64,12,ES_AUTOHSCROLL
+    LTEXT           "Wiadomoœci:",103,8,28,44,12
+    LISTBOX         IDC_WIADOMOSCI,8,44,212,148,WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Wyczyœæ",IDC_WYCZYSC,180,192,40,14
+    LTEXT           "Przyjaciele:",106,232,6,68,12
+    LISTBOX         IDC_PRZYJACIELE,232,20,148,132,WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Nick:",108,232,180,36,12
+    EDITTEXT        IDC_NICKP,272,176,68,12,ES_AUTOHSCROLL
+    LTEXT           "Host:",110,232,196,20,12
+    EDITTEXT        IDC_HOSTP,272,192,68,12,ES_AUTOHSCROLL
+    LTEXT           "Port:",112,232,212,20,12
+    EDITTEXT        IDC_PORTP,272,208,48,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    PUSHBUTTON      "&Dodaj",IDC_DODAJP,340,208,40,14
+    PUSHBUTTON      "&Usuñ",IDC_USUNP,340,156,40,14
+    EDITTEXT        IDC_WIADOMOSC,8,212,168,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "&Wyœlij",IDC_WYSLIJ,180,212,40,14
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""c4p2res.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Polish resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
